@@ -1,0 +1,166 @@
+body {
+    background-image: url("../images/crystals.jpg");
+}
+
+.header {
+    width: 45%;
+    text-align: center;
+    background-color: #00e5ff;
+}
+
+.instructions {
+    width: 75%;
+    padding-left: 10px;
+    padding-right: 10px;
+    background-color: silver;
+    border: 2px solid blue;
+}
+
+.random-number {
+    width: 15%;
+    text-align: center;
+    background-color: #00e5ff;
+    font-size: 4em;
+}
+
+.crystal-array {
+    text-align: center;
+    background-color: silver;
+    border: 2px solid blue;
+    width: 50%;
+    padding-bottom: 5px;
+    padding-top: 5px;
+}
+
+.jewel {
+    height: 80px;
+    width: 80px;
+    margin: 0 2% 0 3%;
+}
+
+.amethyst {
+    background-color: #8c00c3;
+}
+
+.emld {
+    background-color: #239900;
+}
+
+.ruby {
+    background-color: #cc0000;
+}
+
+.sapphire {
+    background-color: #facc00;
+}
+
+.total-score {
+    float: left;
+    position: relative;
+    text-align: center;
+    background-color: #00e5ff;
+    font-size: 3em;
+    width: 26%;
+    padding-bottom: 12px;
+}
+
+.wins-loses {
+    float: left;
+    position: relative;
+    text-align: center;
+    width: 26%;
+    background-color: #00e5ff;
+    margin-top: 2%;
+    margin-left: 20%;
+    font-size: 1.5em;
+}
+
+.footer {
+    width: 26%;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    margin: 33% 0 0 36%;
+}
+    /*768px*/
+
+@media (max-width: 768px) {
+
+    .random-number {
+        margin-top: 3%;
+    }
+
+    .jewel {
+       margin-right: -1%;
+    }
+
+    .jewel:nth-child(4) {
+        margin-right: 8px;
+    }
+
+    .footer {
+        margin-top: 37%;
+    }
+
+}
+
+/*640px*/
+
+@media (max-width: 640px) {
+
+    .crystal-array {
+       width: 64%;
+       margin-left: 19%
+    }
+
+    .footer {
+        width: 43%;
+        margin-top: 52%;
+        margin-left: 29%;
+    }
+}
+
+/*375px*/
+
+@media (max-width: 375px) {
+
+    .header {
+        width: 91%;
+        margin-left: 2%;
+    }
+
+    .instructions {
+        margin-left: 8%;
+    }
+
+   .random-number {
+       width: 32%;
+       margin-left: 32%;
+   }
+
+   .crystal-array {
+      width: 92%;
+      margin-left: 4%;
+   }
+
+   .jewel {
+       height: 70px;
+       width: 70px;
+   }
+
+   .total-score {
+       margin-left: 8%;
+       width: 35%;
+
+   }
+
+   .wins-loses {
+       width: 34%;
+       margin-right: 9%;
+   }
+
+   .footer {
+       margin-top: 104%;
+       margin-left: 17%;
+       width: 60%;
+   }
+}
